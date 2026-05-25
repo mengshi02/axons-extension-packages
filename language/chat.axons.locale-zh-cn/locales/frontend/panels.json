@@ -1,0 +1,105 @@
+{
+  "codeHealth": {
+    "title": "代码健康",
+    "tab": {
+      "hotspots": "热点",
+      "deadcode": "死代码",
+      "cochange": "共变"
+    },
+    "hotspotDesc": "调用耦合度最高的函数（fan-in × 2 + fan-out）",
+    "noHotspots": "未发现热点",
+    "unreachable": "不可达函数（{{count}}）",
+    "noDeadCode": "未发现不可达代码",
+    "unusedExports": "未使用的导出（{{count}}）",
+    "noUnusedExports": "未发现未使用的导出",
+    "score": "分数"
+  },
+  "graphAnalytics": {
+    "title": "图分析",
+    "tab": {
+      "metrics": "指标",
+      "pagerank": "PageRank",
+      "communities": "模块",
+      "cycles": "环"
+    },
+    "nodes": "节点",
+    "edges": "边",
+    "communities": "社区",
+    "cyclesScc": "环（SCC）",
+    "degree": "度",
+    "avgInDegree": "平均入度",
+    "avgOutDegree": "平均出度",
+    "maxInDegree": "最大入度",
+    "maxOutDegree": "最大出度",
+    "structure": "结构",
+    "density": "密度",
+    "largestScc": "最大 SCC",
+    "modularity": "模块度",
+    "isDag": "是否 DAG",
+    "pagerankDesc": "按随机游走概率排列的最重要节点（越高越核心）",
+    "noData": "暂无数据，请先构建图。"
+  },
+  "impact": {
+    "title": "影响分析",
+    "tab": {
+      "impact": "影响",
+      "callchain": "调用链"
+    },
+    "depth": "深度",
+    "all": "全部",
+    "selectFrom": "起点",
+    "selectTo": "终点",
+    "findChain": "查找链路",
+    "enterValidNodeIds": "请输入有效的节点 ID",
+    "affectedNodes": "受影响节点",
+    "directCallers": "直接调用者"
+  },
+  "cfg": {
+    "title": "CFG / 数据流",
+    "tab": {
+      "cfg": "CFG",
+      "dataflow": "数据流"
+    }
+  },
+  "sequence": {
+    "title": "时序图",
+    "enterFunction": "输入函数名",
+    "depth": "深度",
+    "generate": "生成",
+    "copyMermaid": "复制 Mermaid"
+  },
+  "rules": {
+    "title": "架构规则",
+    "ruleName": "规则名称 *",
+    "noRules": "尚未定义规则"
+  },
+  "flow": {
+    "title": "流程图",
+    "detect": "检测",
+    "detecting": "检测中…",
+    "redetect": "重新检测",
+    "processes_one": "{{count}} 个流程",
+    "processes_other": "{{count}} 个流程",
+    "loading": "加载中…",
+    "noProcesses": "未检测到流程。",
+    "buildOrRedetect": "请先构建项目或点击重新检测。",
+    "stepCount_one": "{{count}} 步",
+    "stepCount_other": "{{count}} 步",
+    "selectToView": "选择一个流程查看其执行步骤",
+    "loadingSteps": "正在加载步骤…"
+  },
+  "codeRef": {
+    "preview": "预览",
+    "source": "源码",
+    "searchPlaceholder": "搜索...",
+    "previous": "上一个",
+    "next": "下一个",
+    "copyCode": "复制代码",
+    "editFile": "编辑文件"
+  },
+  "changeList": {
+    "previewDiff": "预览差异",
+    "revertFile": "还原此文件",
+    "noDifferences": "没有差异可显示"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "id": "chat.axons.locale-zh-cn",
+    "name": "Chinese (Simplified) Language Pack",
+    "version": "1.0.0",
+    "description": "简体中文语言包，为 Axons 提供完整的中文界面翻译",
+    "author": "axons-community",
+    "icon": "china.png",
+    "category": "localization",
+    "minAxonsVersion": "0.8.0",
+
+    "backend": null,
+
+    "frontend": {
+        "entry": null,
+        "locale": {
+            "language": "zh-CN",
+            "displayName": {
+                "native": "简体中文",
+                "english": "Chinese (Simplified)"
+            },
+            "resources": [
+                "locales/frontend/common.json",
+                "locales/frontend/settings.json",
+                "locales/frontend/panels.json",
+                "locales/frontend/chat.json",
+                "locales/frontend/activitybar.json",
+                "locales/frontend/dropzone.json",
+                "locales/frontend/extensions.json"
+            ],
+            "backendResources": [
+                "locales/backend/messages.toml"
+            ],
+            "pluginTitles": "locales/plugin/titles.json"
+        }
+    }
+}

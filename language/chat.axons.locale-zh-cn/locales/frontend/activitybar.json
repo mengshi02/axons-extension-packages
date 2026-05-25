@@ -1,0 +1,38 @@
+{
+  "projectsTitle": "项目",
+  "showFilePanel": "显示文件面板",
+  "hideFilePanel": "隐藏文件面板",
+  "aiAssistant": "AI 助手",
+  "menu": "菜单",
+  "settings": "设置",
+  "extensions": "扩展",
+  "files": "文件",
+  "code": "代码",
+  "projects": {
+    "watchingChanges": "正在监视变更",
+    "deleteProject": "删除项目",
+    "importProject": "导入项目",
+    "recentImports": "最近导入",
+    "removeFromHistory": "从历史中移除",
+    "confirmDelete": "删除项目 \"{{name}}\"？这将移除所有关联的图数据。",
+    "stopWatching": "停止监视",
+    "startWatching": "开始监视",
+    "startingEmbedding": "正在启动 Embedding...",
+    "embeddingProgress": "Embedding {{current}}/{{total}}",
+    "embeddingDone": "已嵌入 {{new}} 新增，{{updated}} 更新",
+    "embedSuccess": "成功：{{new}} 新增，{{updated}} 更新",
+    "reembed": "重新嵌入（模型已变更）· {{desc}} 描述 + {{code}} 代码",
+    "embedProject": "嵌入项目 · {{desc}} 描述 + {{code}} 代码",
+    "buildProject": "构建 {{name}}"
+  },
+  "fileTree": {
+    "newFile": "新建文件",
+    "newFolder": "新建文件夹",
+    "collapseAll": "全部折叠"
+  },
+  "terminal": {
+    "title": "终端",
+    "newTerminal": "新建终端",
+    "clear": "清空"
+  } 
+}

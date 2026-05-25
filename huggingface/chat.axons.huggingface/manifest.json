@@ -1,0 +1,102 @@
+{
+    "id": "chat.axons.huggingface",
+    "name": "HuggingFace",
+    "version": "1.0.0",
+    "description": "浏览 HuggingFace GGUF 模型，下载、启停、管理本地 LLM 模型（基于 llama.cpp）",
+    "author": "axons-community",
+    "icon": "ui/icon.svg",
+    "category": "productivity",
+    "minAxonsVersion": "0.8.0",
+    "permissions": [
+        "project:read",
+        "model:register",
+        "panel:create"
+    ],
+    "backend": {
+        "command": [
+            ".venv/bin/python",
+            "server.py"
+        ],
+        "port": 0,
+        "healthCheck": "/health",
+        "readyTimeout": "15s",
+        "install": {
+            "command": [
+                "bash",
+                "install.sh"
+            ],
+            "timeout": "300s"
+        },
+        "uninstall": {
+            "command": [
+                "bash",
+                "uninstall.sh"
+            ],
+            "args": [
+                {
+                    "name": "purge_data",
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Delete all plugin data (downloaded models, binaries, metadata)"
+                }
+            ]
+        },
+        "platforms": {
+            "windows": {
+                "command": [
+                    ".venv\\Scripts\\python.exe",
+                    "server.py"
+                ],
+                "install": {
+                    "command": [
+                        "powershell",
+                        "-ExecutionPolicy",
+                        "Bypass",
+                        "-File",
+                        "install.ps1"
+                    ]
+                },
+                "uninstall": {
+                    "command": [
+                        "powershell",
+                        "-ExecutionPolicy",
+                        "Bypass",
+                        "-File",
+                        "uninstall.ps1"
+                    ],
+                    "args": [
+                        {
+                            "name": "purge_data",
+                            "type": "boolean",
+                            "default": false,
+                            "description": "Delete all plugin data (downloaded models, binaries, metadata)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "frontend": {
+        "entry": "ui/index.js",
+        "panels": [
+            {
+                "id": "huggingface",
+                "title": "HuggingFace",
+                "icon": "ui/hugging_face.svg",
+                "location": "left",
+                "activator": "activityBar",
+                "order": 10
+            }
+        ],
+        "commands": [
+            {
+                "id": "huggingface.open",
+                "title": "Open HuggingFace",
+                "shortcut": "Ctrl+Shift+M"
+            }
+        ]
+    },
+    "activationEvents": [
+        "onStartup"
+    ]
+}

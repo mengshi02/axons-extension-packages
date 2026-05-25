@@ -1,0 +1,48 @@
+{
+  "action": {
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "refresh": "刷新",
+    "delete": "删除",
+    "confirm": "确认",
+    "edit": "编辑",
+    "start": "启动",
+    "stop": "停止",
+    "install": "安装",
+    "uninstall": "卸载",
+    "import": "导入",
+    "testing": "测试中...",
+    "saving": "保存中...",
+    "loading": "加载中..."
+  },
+  "status": {
+    "running": "运行中",
+    "stopped": "已停止",
+    "starting": "启动中",
+    "crashed": "已崩溃",
+    "installed": "已安装",
+    "imported": "已导入",
+    "configured": "已配置",
+    "notConfigured": "未配置",
+    "installing": "安装中"
+  },
+  "unit": {
+    "nodes_one": "{{count}} 个节点",
+    "nodes_other": "{{count}} 个节点",
+    "edges_other": "{{count}} 条边",
+    "callers_other": "{{count}} 个调用者",
+    "callees_other": "{{count}} 个被调用者",
+    "embeddings_other": "{{count}} 个 Embedding"
+  },
+  "error": {
+    "loadFailed": "加载数据失败",
+    "connectionFailed": "连接失败",
+    "unknownError": "未知错误",
+    "importFailed": "导入失败：{{message}}"
+  },
+  "search": {
+    "nodesPlaceholder": "搜索节点...",
+    "fullTextPlaceholder": "全文搜索... (Enter)"
+  }
+}

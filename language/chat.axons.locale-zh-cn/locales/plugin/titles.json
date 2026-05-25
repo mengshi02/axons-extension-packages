@@ -1,0 +1,10 @@
+{
+  "chat.axons.huggingface": {
+    "panels": {
+      "huggingface": "HuggingFace"
+    },
+    "commands": {
+      "huggingface.open": "打开 HuggingFace"
+    }
+  }
+}

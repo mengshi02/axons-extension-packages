@@ -1,0 +1,22 @@
+{
+  "title": "扩展",
+  "noExtensions": "未找到扩展",
+  "placePlugins": "将插件放入 ~/.axons/plugins/",
+  "importPlugin": "从 .tar.gz 导入插件",
+  "scanPlugins": "扫描新插件",
+  "onlyTarGz": "仅支持 .tar.gz 压缩包",
+  "installLog": "安装日志",
+  "uninstallTitle": "卸载插件",
+  "uninstallMessage": "确定要卸载此插件吗？此操作无法撤销。",
+  "startingInstall": "正在开始安装...",
+  "installComplete": "安装成功完成。",
+  "installFailed": "安装失败：{{error}}",
+  "category": {
+    "all": "全部",
+    "analysis": "分析",
+    "visualization": "可视化",
+    "search": "搜索",
+    "productivity": "效率",
+    "localization": "语言包"
+  }
+}

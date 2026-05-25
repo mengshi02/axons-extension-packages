@@ -1,0 +1,50 @@
+{
+  "title": "设置",
+  "tab": {
+    "theme": "主题",
+    "embedding": "Embedding",
+    "llm": "LLM",
+    "rerank": "重排序",
+    "rag": "RAG",
+    "language": "语言"
+  },
+  "theme": {
+    "description": "选择你喜欢的主题。Moon 主题为深色配紫色强调，适合夜间使用。Sun 主题明亮清爽，适合白天使用。",
+    "moon": {
+      "name": "Moon",
+      "desc": "深色 & 紫色"
+    },
+    "sun": {
+      "name": "Sun",
+      "desc": "明亮 & 清爽"
+    }
+  },
+  "embedding": {
+    "enable": "构建后自动生成 Embedding",
+    "provider": "提供商",
+    "apiKey": "API Key",
+    "model": "模型",
+    "baseUrl": "Base URL",
+    "testConnection": "测试连接",
+    "maxContextTokens": "最大上下文 Tokens (n_ctx)",
+    "maxContextTokensHint": "设为 0 使用默认值（512 tokens）。本地服务无法查询 n_ctx 时需设置此值。",
+    "selectProvider": "选择提供商",
+    "enterApiKey": "输入你的 API Key",
+    "modelName": "模型名称",
+    "connected": "连接成功！模型：{{model}}，维度：{{dimension}}"
+  },
+  "llm": {
+    "enable": "启用 LLM Agent",
+    "enableDesc": "允许 AI 助手回答问题",
+    "noModels": "尚未配置模型，点击 + 添加。",
+    "addModel": "添加模型",
+    "newModel": "新模型",
+    "defaultEndpoint": "默认端点",
+    "multimodal": "多模态",
+    "unnamed": "未命名"
+  },
+  "language": {
+    "description": "选择你偏好的语言。可通过扩展插件安装更多语言包。",
+    "onlyDefault": "默认仅提供英文，安装语言包扩展以获取更多语言。"
+  }
+}

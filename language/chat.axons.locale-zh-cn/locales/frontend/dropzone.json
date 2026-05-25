@@ -1,0 +1,73 @@
+{
+  "title": "Axons",
+  "subtitle": "将你的代码库可视化为交互式图",
+  "recentImports": "最近导入",
+  "removeFromHistory": "从历史中移除",
+  "dropFolder": "拖拽文件夹到此处或点击浏览",
+  "supportedLanguages": "支持 Go、TypeScript、JavaScript、Python 等",
+  "or": "或",
+  "importing": "导入中...",
+  "importFrom": "从本地路径或远程 URL 导入",
+  "importHint": "从本地目录导入或从 GitHub 克隆",
+  "features": {
+    "visualize": {
+      "title": "可视化",
+      "desc": "交互式图视图"
+    },
+    "explore": {
+      "title": "探索",
+      "desc": "搜索与导航"
+    },
+    "ai": {
+      "title": "AI 助手",
+      "desc": "Agent 驱动"
+    }
+  },
+  "building": {
+    "title": "正在构建知识图谱",
+    "analyzing": "正在分析 {{name}}",
+    "parsing": "正在解析源文件...",
+    "extracting": "正在提取代码结构...",
+    "building": "正在构建关系...",
+    "hint": "这可能需要一些时间，取决于项目大小"
+  },
+  "importDialog": {
+    "title": "导入项目",
+    "local": "本地",
+    "remoteUrl": "远程 URL",
+    "importExisting": "导入已有项目",
+    "createNew": "创建新项目",
+    "projectPath": "项目路径",
+    "projectPathHint": "输入本地项目目录的绝对路径",
+    "projectName": "项目名称",
+    "location": "位置（父目录）",
+    "locationHint": "项目将创建于：{{location}}/{{name}}",
+    "language": "语言",
+    "initGit": "初始化 Git 仓库",
+    "repoUrl": "仓库 URL",
+    "repoUrlHint": "GitHub URL（支持 HTTPS 和 SSH 格式）",
+    "advancedOptions": "高级选项",
+    "branch": "分支",
+    "cloneLocation": "克隆位置",
+    "managed": "托管",
+    "managedHint": "克隆到 ~/.axons/repos/{provider}/{owner}/{repo}",
+    "custom": "自定义",
+    "customHint": "克隆到自定义工作区目录",
+    "workspacePath": "工作区路径",
+    "autoWatch": "自动监视文件变更",
+    "cancel": "取消",
+    "cloneAndImport": "克隆并导入",
+    "create": "创建",
+    "import": "导入",
+    "creating": "创建中...",
+    "cloning": "克隆中...",
+    "errorLocalPath": "请输入本地路径",
+    "errorAbsolutePath": "请输入绝对路径（例如 /Users/you/myproject）",
+    "errorProjectName": "请输入项目名称",
+    "errorLocation": "请输入位置",
+    "errorAbsoluteLocation": "请输入位置的绝对路径（例如 /Users/you/workspace）",
+    "errorRemoteUrl": "请输入远程 URL",
+    "errorCreateFailed": "创建项目失败",
+    "errorCloneFailed": "克隆仓库失败"
+  }
+}
