@@ -167,7 +167,7 @@ export default function RunConfigModal({ isOpen, onClose, model, pluginApi, onRu
   const isQwenFamily = model.family?.toLowerCase().startsWith('qwen') ?? false;
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} size="sm">
+    <Modal isOpen={isOpen} onClose={onClose} size="sm" overlayOpacity="none">
       <div style={{ padding: '16px 20px' }}>
         {/* 标题区 */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>

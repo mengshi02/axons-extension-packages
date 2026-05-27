@@ -29,4 +29,3 @@ profile.cov
 
 # 打包产物输出目录
 dist/
-*.axons-plugin.tar.gz

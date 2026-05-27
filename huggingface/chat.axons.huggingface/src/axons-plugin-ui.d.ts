@@ -73,6 +73,6 @@ declare module 'axons-plugin-ui' {
     export function ConfirmDialog(props: ConfirmDialogProps): JSX.Element;
 
     // ═══ Modal ═══
-    export interface ModalProps { isOpen: boolean; onClose: () => void; children: ReactNode; closeOnOverlayClick?: boolean; closeOnEscape?: boolean; size?: 'sm' | 'md' | 'lg' | 'xl' | 'full'; overlayOpacity?: 'light' | 'medium' | 'dark' | 'darker'; backdropBlur?: boolean; className?: string; }
+    export interface ModalProps { isOpen: boolean; onClose: () => void; children: ReactNode; closeOnOverlayClick?: boolean; closeOnEscape?: boolean; size?: 'sm' | 'md' | 'lg' | 'xl' | 'full'; overlayOpacity?: 'none' | 'light' | 'medium' | 'dark' | 'darker'; backdropBlur?: boolean; className?: string; }
     export function Modal(props: ModalProps): JSX.Element;
 }
